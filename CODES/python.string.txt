@@ -1,0 +1,67 @@
+
+age=input("Enter your age")
+type(age) #out[]=str
+
+age=int(input("Enter your age"))
+type(age)
+-------------------------------------------------------------------------
+		String Formatting using Python's format():
+-------------------------------------------------------------------------
+#placeholders
+
+age=input("Enter your age : ")
+name=input("Enter your name : ")
+print("My name is {0} and my age is {1}".format(name,age))
+
+#placeholders have indices
+#indexing should be done correctly otherwise there will be wrong outputs
+
+---------------------------------------------------------------------------
+				# Nested If's
+---------------------------------------------------------------------------
+
+a=b=c=d=10
+if a<=b:
+	print("HTML")
+	if b<=c:
+		print("CSS")
+		if c>=d:
+			print("JavaScript")
+
+TEST PROGRAM :
+--------------
+cnic_status=input("Do you have a valid CNIC ").lower()
+if cnic_status=="yes":
+	print("come inside")
+	name_in_list=input("Is your name present in voter list : ").lower()	
+	if name_in_list == "yes":
+		print("you can caste vote")
+	else:
+		print("you cannot caste vote")
+else:
+	print("you can not caste vote")
+
+--------------------------------------------------------------------------
+				LOGICAL OPERATOR
+--------------------------------------------------------------------------
+and operator:
+-------------
+(multiplication)
+when both are true then true otherwise false
+
+or operator:
+------------
+(addition)
+if any one is true then the whole condition is considered as true
+
+
+Program using Logical Operator : 
+--------------------------------
+cnic_status=input("Do you have a valid CNIC ").lower()
+name_in_list=input("Is your name present in voter list : ").lower()
+if (cnic_status=="yes") and (name_in_list == "yes"):
+	print("Caste your vote..!!")
+else:
+	print("You cannot caste your vote !!")
+
+#education@piaic.org

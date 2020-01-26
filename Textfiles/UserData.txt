@@ -1,0 +1,12 @@
+
+NAME	AGE	CNIC
+Hasham	17	42101
+Midha	20	78787
+Maaz	19	89899
+Mariam	19	56563
+Nabeel	20	82821
+Ahsan	20	90904
+Javeria	18	67632
+Umar	19	85671
+John	23	56128
+Usman	90	14250
